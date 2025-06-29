@@ -1,0 +1,64 @@
+button {
+    background-color: #17a2b7;
+    color: white;
+    border: none;
+    margin-top: -45px;    
+}
+h4 img, .nav-link img, .table-responsive img {
+    width: 30px;
+}
+header {
+  background-color: #17a2b7;
+}
+
+header .nav-link {
+  color: #a0eaf5;
+}
+
+header .nav-link:hover,
+header .nav-link:focus {
+  color: white;
+}
+
+header .nav-link.active-menu {
+  color: white;
+  font-weight: bold;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+.custom-btn {
+  width: 15px;
+  height: 15px;
+  border-width: 2px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+  padding: 0;
+}
+
+.btn-check:checked + .border-success {
+  background-color: #198754; /* Bootstrap success */
+}
+
+.btn-check:checked + .border-warning {
+  background-color: #ffc107; /* Bootstrap warning */
+}
+
+.btn-check:checked + .border-danger {
+  background-color: #dc3545; /* Bootstrap danger */
+}
+.d-flex.gap-5.align-items-end.flex-wrap {
+  margin-bottom: 30px;
+}
+.table-blue-header th {
+  background-color: #0d6efd;
+  color: white;
+}
+.icon-white {
+  filter: brightness(0) invert(1);
+}
+.icon-blue {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(94%) saturate(748%) hue-rotate(199deg) brightness(95%) contrast(101%);
+}
